@@ -8,17 +8,18 @@ int main(){
 	cin>>T;
 	while((T--)!=0){
 		cin>>x>>y;
-		x--;
-		y--;
-		int r,c;
-		if(x%3==0)
-			r=x/3;
-		else
-			r=x/3+1;
-		if(y%3==0)
-			c=y/3;
-		else
-			c=y/3+1;
-		cout<<r*c<<endl;
+		//x--;
+		//y--;
+		//int r,c;
+		//if(x%3==0)
+		//	r=x/3;
+		//else
+		//	r=x/3+1;
+		//if(y%3==0)
+		//	c=y/3;
+		//else
+		//	c=y/3+1;
+		//cout<<r*c<<endl;
+		cout<<(x/3)*(y/3)<<endl;
 	}
 }
